@@ -27,7 +27,7 @@ class TestNote {
     fun testListAll() {
         val noteBook = NoteBook()
         noteBook.addGenesis("第一个笔记本首页")
-        noteBook.addNote("a给b转账100")
+        noteBook.addNote("a给b转账100 ")
         val result:String = noteBook.listAll()
         println(result)
     }
